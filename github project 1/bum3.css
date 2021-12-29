@@ -1,0 +1,55 @@
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+header:first-child{
+    background-color: cadetblue;
+    border-style: double;
+    border-color: black;
+    border-width: 10px;
+    border-radius: 10px;
+}
+.sections{
+    background-color: blanchedalmond;
+    border-color: burlywood;
+    border-style: dashed;
+    border-width: 20px;
+    border-radius: 20px;
+}
+footer{
+    background-color: red;
+    position: relative;
+    top: 30px;
+    width: 1920px;
+    right: 8px;
+}
+article{
+    background-image: url(bolg.jfif);
+    background-size: cover;
+}
+.oj{
+    background-color: beige;
+}
+a:link:first-child,
+a:link:nth-child(2),
+a:link:nth-child(3),
+a:link:nth-child(4){
+    color: blue;
+    text-decoration: underline solid blue;
+    background-color: brown;
+}
+a:link:first-child:hover,
+a:link:nth-child(2):hover,
+a:link:nth-child(3):hover,
+a:link:nth-child(4):hover{
+    color: red;
+    font-weight: bold;
+    font-style: oblique;
+    text-decoration: underline solid darkred;
+    background-color: yellow;
+}
+.booga{
+    background-color: red;
+}
+.sighn-in-Test{
+    background-color: rgb(28, 113, 177);
+}
