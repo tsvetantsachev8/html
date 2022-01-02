@@ -1,5 +1,7 @@
 body{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0;
+    padding: 0;
 }
 header:first-child{
     background-color: cadetblue;
@@ -10,7 +12,7 @@ header:first-child{
 }
 .sections{
     background-color: blanchedalmond;
-    border-color: burlywood;
+    border-top: 30px dotted blue;
     border-style: dashed;
     border-width: 20px;
     border-radius: 20px;
@@ -52,4 +54,21 @@ a:link:nth-child(4):hover{
 }
 .sighn-in-Test{
     background-color: rgb(28, 113, 177);
+}
+#goober:first-child{
+    color: blue;
+}
+#auther{
+    font-style: italic;
+    
+}
+#uli{
+    list-style: armenian;
+}
+.hed{
+    padding: 50px 100px;
+    border-top: 20px solid;
+}
+.goober{
+    border-bottom: 10px solid black;
 }
